@@ -26,6 +26,17 @@ const themeConfig: DefaultTheme.Config = {
       },
     },
   },
+  editLink: {
+    pattern: "",
+    text: "在 GitHub 上编辑此页",
+  },
+  lastUpdated: {
+    text: "最后更新于",
+  },
+  docFooter: {
+    prev: "上一篇",
+    next: "下一篇",
+  },
 };
 
 export default themeConfig;

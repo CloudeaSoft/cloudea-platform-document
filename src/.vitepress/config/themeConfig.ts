@@ -3,7 +3,6 @@ import sidebar from "./navigation/sidebar";
 import nav from "./navigation/navbar";
 
 const themeConfig: DefaultTheme.Config = {
-  // https://vitepress.dev/reference/default-theme-config
   nav,
   sidebar,
   socialLinks: [
@@ -11,6 +10,17 @@ const themeConfig: DefaultTheme.Config = {
   ],
   search: {
     provider: "local",
+  },
+  editLink: {
+    pattern: "",
+    text: "Edit this page on GitHub",
+  },
+  lastUpdated: {
+    text: "Last updated at",
+  },
+  docFooter: {
+    prev: "Prev",
+    next: "Next",
   },
 };
 
