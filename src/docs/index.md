@@ -18,9 +18,9 @@
 
 Cloudea means Cloud Tea
 
-This is an open-source web platform, written in C#, created by Cloudea.
+This is an open-source web platform, written in C#
 
-It boasts a set of features including a forum, toolbox, and a digital library.
+It boasts a set of features including a forum, toolbox, and a digital library
 
 Development in progress ✿✿ヽ(°▽°)ノ✿
 
@@ -49,6 +49,7 @@ It currently consists of the following sub-projects:
 - Document: [cloudea-platform-document](https://github.com/CloudeaSoft/cloudea-platform-document)
 
 ## Disclaimer
+- This software is open-sourced under the [GNU Affero General Public License v3.0 only](https://spdx.org/licenses/AGPL-3.0-only.html).
+- The software is an open-source, free of charge software only for studying and communication purposes. There is no agreement or understanding between the developers of the software and the 3rd party person who copies this software and charges you. In that case, the developers of the software is not responsible for the problems and consequences caused.
 
-- The software is an open-source, free of charge software only for studying and communication purposes. There is no agreement or understanding between the developers of the software and the 3rd party person who uses this software as an assistant and charges you. In that case, the developers of the software is not responsible for the problems and consequences caused.
-Advertisement
+Please click "Star" if you consider it helpful! Thank you for your support!
