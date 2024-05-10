@@ -9,7 +9,7 @@ hero:
   actions:
     - theme: brand
       text: Get started
-      link: /markdown-examples
+      link: /docs/guide/getting-started
     - theme: alt
       text: Github
       link: https://github.com/CloudeaSoft/cloudea-platform
