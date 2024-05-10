@@ -4,11 +4,11 @@ layout: home
 
 hero:
   name: "Cloudea Platform"
-  text: "Open-source website"
+  text: "一个开源论坛"
   tagline: My great project tagline
   actions:
     - theme: brand
-      text: Get started
+      text: 新手上路
       link: /markdown-examples
     - theme: alt
       text: Github
