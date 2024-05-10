@@ -32,6 +32,9 @@ importers:
       typescript-eslint:
         specifier: ^7.8.0
         version: 7.8.0(eslint@9.2.0)(typescript@5.4.5)
+      vite:
+        specifier: ^5.2.11
+        version: 5.2.11
       vitepress:
         specifier: ^1.1.4
         version: 1.1.4(@algolia/client-search@4.23.3)(postcss@8.4.38)(search-insights@2.13.0)(typescript@5.4.5)
