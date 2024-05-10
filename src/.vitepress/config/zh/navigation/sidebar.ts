@@ -1,6 +1,7 @@
 import type { DefaultTheme } from "vitepress";
 
 const sidebar: DefaultTheme.Sidebar = [
+  { text: "介绍", link: "/zh/docs/index", items: [] },
   {
     text: "用户手册",
     items: [
