@@ -9,7 +9,7 @@ hero:
   actions:
     - theme: brand
       text: 新手上路
-      link: /zh/docs/guide/getting-started
+      link: /zh-cn/docs/guide/getting-started
     - theme: alt
       text: Github
       link: https://github.com/CloudeaSoft/cloudea-platform

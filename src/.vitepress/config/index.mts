@@ -1,16 +1,8 @@
-import {
-  LocaleConfig,
-  LocaleSpecificConfig,
-  Theme,
-  defineConfig,
-} from "vitepress";
-import themeConfig from "./theme";
-import themeConfigZH from "./theme-zh-cn";
+import { defineConfig } from "vitepress";
+import themeConfigENUS from "./theme-enus";
+import themeConfigZHCN from "./theme-zhcn";
 
 export default defineConfig({
-  title: "Cloudea Platform",
-  description: "Document For Cloudea Platform",
-  themeConfig,
   lastUpdated: true,
   appearance: {},
   locales: {
@@ -18,14 +10,28 @@ export default defineConfig({
       label: "English",
       lang: "en-US",
       link: "/",
+      title: "Cloudea Platform",
+      description: "Document For Cloudea Platform",
+      themeConfig: themeConfigENUS,
     },
-    zh: {
+    "zh-cn": {
       label: "简体中文",
       lang: "zh-CN",
       link: "/zh-cn/",
       title: "Cloudea Platform",
       description: "Cloudea Platform 文档",
-      themeConfig: themeConfigZH,
+      themeConfig: themeConfigZHCN,
+    },
+  },
+  themeConfig: {
+    socialLinks: [
+      {
+        icon: "github",
+        link: "https://github.com/CloudeaSoft/cloudea-platform",
+      },
+    ],
+    search: {
+      provider: "local",
     },
   },
 });

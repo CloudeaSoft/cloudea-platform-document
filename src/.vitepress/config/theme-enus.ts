@@ -5,12 +5,6 @@ import { enusSidebar } from "./sidebar";
 const themeConfig: DefaultTheme.Config = {
   nav: enusNavbar,
   sidebar: enusSidebar,
-  socialLinks: [
-    { icon: "github", link: "https://github.com/CloudeaSoft/cloudea-platform" },
-  ],
-  search: {
-    provider: "local",
-  },
   editLink: {
     pattern: "",
     text: "Edit this page on GitHub",
