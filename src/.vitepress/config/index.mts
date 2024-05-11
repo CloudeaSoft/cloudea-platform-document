@@ -1,6 +1,7 @@
 import { defineConfig } from "vitepress";
 import themeConfigENUS from "./theme-enus";
 import themeConfigZHCN from "./theme-zhcn";
+import themeConfigZHTW from "./theme-zhtw";
 
 export default defineConfig({
   lastUpdated: true,
@@ -22,6 +23,14 @@ export default defineConfig({
       description: "Cloudea Platform 文档",
       themeConfig: themeConfigZHCN,
     },
+    "zh-tw":{
+      label: "繁體中文",
+      lang: "zh-TW",
+      link: "/zh-tw/",
+      title: "Cloudea Platform",
+      description: "Cloudea Platform 文檔",
+      themeConfig: themeConfigZHTW,
+    }
   },
   themeConfig: {
     socialLinks: [
