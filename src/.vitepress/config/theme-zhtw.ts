@@ -37,6 +37,8 @@ const themeConfig: DefaultTheme.Config = {
     prev: "上一篇",
     next: "下一篇",
   },
+  lightModeSwitchTitle: "切换到亮色模式",
+  darkModeSwitchTitle: "切换到深色模式",
 };
 
 export default themeConfig;
