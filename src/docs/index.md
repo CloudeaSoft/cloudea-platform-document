@@ -14,7 +14,7 @@
   </a>
 </p>
 
-[English](/docs/) | [简体中文](/zh/docs/)
+[English](/docs/) | [简体中文](/zh-cn/docs/) | [繁體中文](/zh-tw/docs/)
 
 Cloudea means Cloud Tea
 
