@@ -6,7 +6,7 @@ export const enusSidebar: DefaultTheme.Sidebar = [
     text: "User Manual",
     items: [
       { text: "Getting Started", link: "/docs/guide/getting-started" },
-      { text: "Introduction", link: "/docs/guide/introduction" },
+      { text: "Introduction", link: "/docs/guide/features" },
     ],
   },
   {

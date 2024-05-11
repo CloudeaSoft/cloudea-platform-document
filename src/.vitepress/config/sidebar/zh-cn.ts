@@ -1,13 +1,13 @@
 import type { DefaultTheme } from "vitepress";
 
 export const zhcnSidebar: DefaultTheme.Sidebar = [
-  { text: "介绍", link: "/zh-cn/docs/index", items: [] },
+  { text: "简介", link: "/zh-cn/docs/index", items: [] },
   {
     text: "用户手册",
     base: "/zh-cn/docs/guide/",
     items: [
       { text: "新手上路", link: "getting-started" },
-      { text: "功能介绍", link: "introduction" },
+      { text: "功能介绍", link: "features" },
     ],
   },
   {
