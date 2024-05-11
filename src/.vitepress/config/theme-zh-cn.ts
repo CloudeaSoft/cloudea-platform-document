@@ -1,10 +1,10 @@
 import type { DefaultTheme } from "vitepress";
-import sidebar from "./navigation/sidebar";
-import nav from "./navigation/navbar";
+import { zhcnNavbar } from "./navbar";
+import { zhcnSidebar } from "./sidebar";
 
 const themeConfig: DefaultTheme.Config = {
-  nav,
-  sidebar,
+  nav: zhcnNavbar,
+  sidebar: zhcnSidebar,
   search: {
     provider: "local",
     options: {

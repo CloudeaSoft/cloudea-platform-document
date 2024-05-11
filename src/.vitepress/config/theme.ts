@@ -1,10 +1,10 @@
 import type { DefaultTheme } from "vitepress";
-import sidebar from "./navigation/sidebar";
-import nav from "./navigation/navbar";
+import { enusNavbar } from "./navbar";
+import { enusSidebar } from "./sidebar";
 
 const themeConfig: DefaultTheme.Config = {
-  nav,
-  sidebar,
+  nav: enusNavbar,
+  sidebar: enusSidebar,
   socialLinks: [
     { icon: "github", link: "https://github.com/CloudeaSoft/cloudea-platform" },
   ],

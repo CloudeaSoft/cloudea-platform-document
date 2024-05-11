@@ -1,6 +1,6 @@
 import type { DefaultTheme } from "vitepress";
 
-const sidebar: DefaultTheme.Sidebar = [
+export const enusSidebar: DefaultTheme.Sidebar = [
   { text: "Introduction", link: "/docs/index", items: [] },
   {
     text: "User Manual",
@@ -19,4 +19,4 @@ const sidebar: DefaultTheme.Sidebar = [
   },
 ];
 
-export default sidebar;
+

@@ -4,8 +4,8 @@ import {
   Theme,
   defineConfig,
 } from "vitepress";
-import themeConfig from "./themeConfig";
-import zhThemeConfig from "./zh/themeConfig";
+import themeConfig from "./theme";
+import themeConfigZH from "./theme-zh-cn";
 
 export default defineConfig({
   title: "Cloudea Platform",
@@ -16,16 +16,16 @@ export default defineConfig({
   locales: {
     root: {
       label: "English",
-      lang: "en",
+      lang: "en-US",
       link: "/",
     },
     zh: {
       label: "简体中文",
-      lang: "zh",
-      link: "/zh/",
+      lang: "zh-CN",
+      link: "/zh-cn/",
       title: "Cloudea Platform",
       description: "Cloudea Platform 文档",
-      themeConfig: zhThemeConfig,
+      themeConfig: themeConfigZH,
     },
   },
 });
