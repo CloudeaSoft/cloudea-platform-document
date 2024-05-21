@@ -45,7 +45,7 @@ It currently consists of the following sub-projects:
 
 - Server: [cloudea-platform](https://github.com/CloudeaSoft/cloudea-platform) (this project)
 - Front-End: [cloudea-platform-nuxt3](https://github.com/CloudeaSoft/cloudea-platform-nuxt3)
-- ~Front-End: [cloudea-platform-vue](https://github.com/CloudeaSoft/cloudea-platform-vue)~ (deprecated)
+- ~~Front-End: [cloudea-platform-vue](https://github.com/CloudeaSoft/cloudea-platform-vue)~~(deprecated)
 - Document: [cloudea-platform-document](https://github.com/CloudeaSoft/cloudea-platform-document)
 
 ## Disclaimer

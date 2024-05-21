@@ -53,7 +53,7 @@ Cloudea 的意思是 Cloud Tea
 
 - 官网 后端：[cloudea-platform](https://github.com/CloudeaSoft/cloudea-platform) (this project)
 - 官网 前端：[cloudea-platform-nuxt3](https://github.com/CloudeaSoft/cloudea-platform-nuxt3)
-- ~官网 前端：[cloudea-platform-vue](https://github.com/CloudeaSoft/cloudea-platform-vue)~ (已弃用)
+- ~~官网 前端：[cloudea-platform-vue](https://github.com/CloudeaSoft/cloudea-platform-vue)~~ (已弃用)
 - 文档：[cloudea-platform-document](https://github.com/CloudeaSoft/cloudea-platform-document)
 
 ## 声明

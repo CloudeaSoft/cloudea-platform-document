@@ -15,10 +15,10 @@ hero:
       link: https://github.com/CloudeaSoft/cloudea-platform
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Forum
+    details: An interactive platform for users to discuss topics, share ideas, and receive personalized recommendations based on their interests and participation.
+  - title: Bookshelf
+    details: A digital library feature that allows users to organize, save, and access their favorite books, articles, and other reading materials in one convenient place.
+  - title: Toolbox
+    details: A collection of useful tools and resources designed to enhance users' experience, providing them with additional functionality and assistance for various tasks and activities.
 ---

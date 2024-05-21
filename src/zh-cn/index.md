@@ -14,10 +14,10 @@ hero:
       link: https://github.com/CloudeaSoft/cloudea-platform
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: 论坛
+    details: 一个互动平台，用户可以在此讨论话题、分享想法，并根据他们的兴趣和参与度接收个性化推荐。
+  - title: 书架
+    details: 一个数字图书馆功能，允许用户在一个方便的地方组织、保存和访问他们最喜欢的书籍、文章和其他阅读材料。
+  - title: 工具箱
+    details: 一系列旨在提升用户体验的有用工具和资源，为用户提供各种任务和活动的额外功能和帮助。
 ---
