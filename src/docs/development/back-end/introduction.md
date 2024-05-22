@@ -6,7 +6,7 @@
 
 ### Get Codes
 
-```bash
+```shell
 git clone https://github.com/CloudeaSoft/cloudea-platform
 ```
 
@@ -29,7 +29,7 @@ the built files will be found in the newly created build directory.
 1. If you have forked this repository long time ago, please go to Settings, scroll down to the bottom, and click Delete Repository.
 2. Go to [repository](https://github.com/CloudeaSoft/cloudea-platform) and click Fork, then Create fork.
 3. Clone the ```master``` branch of the (forked) repository to local with submodules:
-```bash
+```shell
 git clone --recurse-submodules <link to your forked repo> -b master
 ```
 4. Run a build to test whether the development environment has been configured correctly.
