@@ -9,7 +9,7 @@ We recommend using ```nvm``` to manage ```node``` version
 
 ## Get Codes
 
-```
+```bash
 git clone https://github.com/CloudeaSoft/cloudea-platform-nuxt3
 ```
 
@@ -18,13 +18,13 @@ git clone https://github.com/CloudeaSoft/cloudea-platform-nuxt3
 ### Step 1
 
 Install packages.
-```
+```bash
 pnpm i
 ```
 
 ### Step 2
 Run development server.
-```
+```bash
 pnpm run dev
 ```
 
@@ -38,7 +38,7 @@ Now you can access to ```https://localhost:3000``` in your broswer.
 1. If you have forked this repository long time ago, please go to Settings, scroll down to the bottom, and click Delete Repository.
 2. Go to [repository](https://github.com/CloudeaSoft/cloudea-platform-nuxt3) and click Fork, then Create fork.
 3. Clone the ```master``` branch of the (forked) repository to local with submodules:
-```
+```bash
 git clone --recurse-submodules <link to your forked repo> -b master
 ```
 4. Run a build to test whether the development environment has been configured correctly.

@@ -36,6 +36,9 @@ export default defineConfig({
     ["link", { rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
     ["link", { rel: "shortcut icon", href: "/favicon.ico" }],
   ],
+  markdown: {
+    lineNumbers: true,
+  },
   themeConfig: {
     logo: "/favicon.ico",
     socialLinks: [

@@ -1,14 +1,17 @@
 :root {
-  --cloudea-main-color: rgba(179, 198, 251, 0.7);
+  --cloudea-main-color: rgba(179, 198, 251, 0.75);
+  --vp-c-bg-alt: rgba(179, 198, 251, 0.9);
 
   --vp-sidebar-bg-color: transparent;
   --vp-nav-bg-color: transparent;
   /* --vp-c-divider: ; */
   --vp-c-gutter: transparent;
+  --vp-code-block-divider-color: gray;
 }
 
 .dark {
   --cloudea-main-color: rgba(40, 30, 40, 0.7);
+  --vp-c-bg-alt: rgba(40, 30, 40, 0.9);
 }
 
 html {
