@@ -1,3 +1,16 @@
+:root {
+  --cloudea-main-color: rgba(179, 198, 251, 0.7);
+
+  --vp-sidebar-bg-color: transparent;
+  --vp-nav-bg-color: transparent;
+  /* --vp-c-divider: ; */
+  --vp-c-gutter: transparent;
+}
+
+.dark {
+  --cloudea-main-color: rgba(40, 30, 40, 0.7);
+}
+
 html {
   scrollbar-width: thin;
 }
@@ -6,4 +19,24 @@ h1 {
   font-family: Georgia, -apple-system, "Nimbus Roman No9 L", "PingFang SC",
     "Hiragino Sans GB", "Noto Serif SC", "Microsoft Yahei",
     "WenQuanYi Micro Hei", "ST Heiti", sans-serif !important;
+}
+
+#app {
+  background: url(/bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.Layout {
+  background-color: var(--cloudea-main-color);
+}
+
+.VPNavBar .container,
+.VPLocalNav,
+.VPNavScreen,
+.VPSidebar {
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
 }
