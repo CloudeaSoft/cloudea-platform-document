@@ -23,16 +23,21 @@ export default defineConfig({
       description: "Cloudea Platform 文档",
       themeConfig: themeConfigZHCN,
     },
-    "zh-tw":{
+    "zh-tw": {
       label: "繁體中文",
       lang: "zh-TW",
       link: "/zh-tw/",
       title: "Cloudea Platform",
       description: "Cloudea Platform 文檔",
       themeConfig: themeConfigZHTW,
-    }
+    },
   },
+  head: [
+    ["link", { rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
+    ["link", { rel: "shortcut icon", href: "/favicon.ico" }],
+  ],
   themeConfig: {
+    logo: "/favicon.ico",
     socialLinks: [
       {
         icon: "github",
