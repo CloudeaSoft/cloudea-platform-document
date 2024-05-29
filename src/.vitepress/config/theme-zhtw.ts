@@ -10,17 +10,17 @@ const themeConfig: DefaultTheme.Config = {
     options: {
       translations: {
         button: {
-          buttonText: "搜索文档",
+          buttonText: "搜尋文件",
         },
         modal: {
           displayDetails: "",
           resetButtonTitle: "重置",
-          backButtonTitle: "返回",
-          noResultsText: "无结果",
+          backButtonTitle: "回退",
+          noResultsText: "無結果",
           footer: {
-            selectText: "选择",
-            navigateText: "切换",
-            closeText: "关闭",
+            selectText: "選擇",
+            navigateText: "轉換",
+            closeText: "關閉",
           },
         },
       },
@@ -28,17 +28,17 @@ const themeConfig: DefaultTheme.Config = {
   },
   editLink: {
     pattern: "",
-    text: "在 GitHub 上编辑此页",
+    text: "在 GitHub 上編輯此頁",
   },
   lastUpdated: {
-    text: "最后更新于",
+    text: "最後更新於",
   },
   docFooter: {
-    prev: "上一篇",
-    next: "下一篇",
+    prev: "上一頁",
+    next: "下一頁",
   },
-  lightModeSwitchTitle: "切换到亮色模式",
-  darkModeSwitchTitle: "切换到深色模式",
+  lightModeSwitchTitle: "切換到亮色主題",
+  darkModeSwitchTitle: "切換到深色主題",
 };
 
 export default themeConfig;

@@ -1,6 +1,6 @@
 import type { DefaultTheme } from "vitepress";
 
 export const zhtwNavbar: DefaultTheme.NavItem[] = [
-  { text: "首页", link: "/zh-tw/" },
-  { text: "文档", link: "/zh-tw/docs/" },
+  { text: "首頁", link: "/zh-tw/" },
+  { text: "文件", link: "/zh-tw/docs/" },
 ];
