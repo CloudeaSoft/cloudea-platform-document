@@ -4,6 +4,7 @@ import themeConfigZHCN from "./theme-zhcn";
 import themeConfigZHTW from "./theme-zhtw";
 
 export default defineConfig({
+  base:"/cloudea-platform-document/",
   lastUpdated: true,
   appearance: {},
   locales: {
